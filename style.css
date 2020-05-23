@@ -1,8 +1,11 @@
 html, body{
     height: 100%;
     width: 100%;
-    font-family: poppings;
+    font-family:   Verdana, Geneva, Tahoma, sans-serif;
     color: blueviolet;
+}
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .navbar {
     padding:9rem;
