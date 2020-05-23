@@ -91,10 +91,40 @@ hr.light-100 {
 
 
 @media (max-width: 992px){
+ .social a { 
+     font-size: 4em;
+     padding: 2rem;
+ }   
 }
 @media(max-width: 768px){
 
+    .carousel-caption h1{
+        font-size: 350%;
+        text-transform: uppercase;
+        
+    }
+    .carousel-caption h3 {
+        font-size: 140%;
+        font-weight: 400%;
+        padding-bottom: .2rem;   
+    }
+  .display-4 {
+      font-size: 200%;
+  }
+  .social a { 
+    font-size: 2.5em;
+    padding: 1.2rem;
+}   
 }
 @media (max-width: 576px){
+    .carousel-caption h1{
+        font-size: 250%;
+        text-transform: uppercase;
+        
+    }
+    .carousel-caption h3 {
+        font-size: 110%;
+         display: none;
+    }
 
 }
