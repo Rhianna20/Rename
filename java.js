@@ -2,15 +2,14 @@ alert("Welcome to my wonderful site!")
 
 
 
-function revealFact() {
-   if (rev==1) 
-   {
- document.getElementById(rev).style.display='inline';
-return r=0;
-}
- else 
-      {
-    document.getElementById(rev).style.display='none';
-    return r=1;
-           }
-        }
+function toggle_div_fun(id) {
+    var divSurprise = document.getElementById('id');
+   if (divSurprise == 'none')
+   divSurprise.style.display = 'block'; 
+   
+
+ else
+      
+    divSurprise.style.display='none';
+ }    
+       

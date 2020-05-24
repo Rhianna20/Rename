@@ -13,7 +13,8 @@
   </head>
   <body>
     <!---NAV BAR-->
-  <nav class='navbar navbar-expand-md navbar-light bg-light sticky-top narbar-default'>
+  <nav class='navbar navbar-expand-md navbar-light sticky-top narbar-default'>
+    <div class="background-color: #e3f2fd">
     <div class='container-fluid d-flex flex-row-reverse d-inlie-flex d-sm-flex'>
       <a class='navbar-brand' href='#'><img src=""></a>
       <button class="navbar-toggler" type="button" data-toggle='collapse' data-target='#navbarResponsive'>
@@ -33,6 +34,7 @@
         </ul>
       </div>
     </div>
+  </div>
     </div>
     </div>
       </nav>
@@ -64,7 +66,7 @@
 </div>
 
   <!---jumbotron-->
-   <div class='container-fluid padding'>
+   <div class='container-fluid padding light'>
    <div class="row jumbotron padding">
      <div class="col-xs-12 col-sm-12 col-md-9 col-9 lg-10">
   
@@ -81,13 +83,13 @@
 <div class="row padding">
   <div class="col-md-12 col-lg-6">
     <h2 class="display-5">Who is Rhianna Stuart?</h2>
-    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus quam nam exercitationem optio ducimus ea, illo pariatur deserunt molestiae,</p> 
-    <p> officia tempore, rerum debitis fugit et reiciendis labore laboriosam sint ipsa.</p>
+    <p>I am an aspiring software engineer. Who's always up for a challenge.,</p> 
+    <p> I have always been intriged by tech and with my new found love for coding I plan on pursuing a career as a software engineer but who knows where I may end up..The evolution of techology excites me and I would love to be apart of it.</p>
     <br>
     <a href="about.html" class="btn btn-light">Find out more!</a>
   </div>
-  <div class="col-md-6">
-  <img src="shock.jpg" class="img=fluid">
+  <div class="col-md-6 max-width">
+  <img src="shock.jpg" class="rounded">
   <div class="col-12 col-md-6">
     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, natus odit voluptas fugit blanditiis sit minus voluptates nostrum vero in exercitationem</p>
     <p> qui reprehenderit doloribus perferendis, esse ab debitis excepturi repellendus?</p>
@@ -104,13 +106,12 @@
    <br>
    <hr class="my-4">
   <!---Background image-->
-  <figure>
-   <div class="fixed-wrap">
-     <div id="fixit">
+    
 
-     </div>
-   </div>
-   </figure>
+
+
+  
+  
 <!--Button for fun fact-->
 <!--<button class="fun" onclick="myFunction()" data-toggle="collaspe" data-target="fun" >Click to find out fun fact</button>
 <div id="fun" class="collaspe">
@@ -125,27 +126,29 @@
 </div>-->
 
 <!--Reveal button-->
-<img id='#rev' src="bird.jpg" width="250x" height="250px">My name is..</img>
-
-<div id="button">
-  <button id="button" onclick="revealFact()">SHow and tell</button>
-</div>
-
-
+ <button onclick="toggle_div_fun"(surprise);></button></button>
+     <div  id='surprise'>
+<p>Test</p>
+   </div>
+<div class="padding 3px"></div>
+<br>
+<br
 <!--CONNECT-->
+<div class="card" id="card" style="width: 7rem ;">
 <div class='conainer-fluid padding'>
 <div class='row text-center padding'>
   <div class='col-4'>
-    <h3>Contact</h3>
-  </div>
-<div class='col-12 social padding'>
-  <a href='https://www.linkedin.com/in/rhiannastuart/'>
-  </div>
+<div class='col-12 social '>
+  <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="en_US" data-type="horizontal" data-theme="light" data-vanity="rhiannastuart"><a class="LI-simple-link" href='https://uk.linkedin.com/in/rhiannastuart?trk=profile-badge'>Connect on Linkedin</a></div>
+</div>
+</div>
+</div></div>
 </div>
 </div>
 </div>
 <br>
-
+<br>
+<br> 
 
 <!--The FOOT-->
 <footer>
@@ -154,9 +157,9 @@
       <div class="col-md-8">
         <img src="">
         <hr class="light">
-        <p>contact</p>
+    
         <p>RhiannaStuart@hotmail</p>
-        <p>City, London</p>
+        <p></p>City, London</p>
       </div>
     </div>
     <div class="col-12">
@@ -184,6 +187,7 @@
 
 
   <!---java script-->
+  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
  
     <script src="java.js">
     </script>

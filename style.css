@@ -2,14 +2,16 @@ html, body{
     height: 100%;
     width: 100%;
     font-family:   Verdana, Geneva, Tahoma, sans-serif;
-    color: blueviolet;
+    color: black;
+    background-color: white;
 }
 *{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+   background-color: white;
 }
 .navbar {
     padding:9rem;
-    color: coral;
+    color: #33cc99;
 }
 .navbar-nav li {
     padding: right 20px; 
@@ -32,6 +34,7 @@ html, body{
 }
 .jumbotro{
     padding: 1rem;
+    background-color: white;
     border-radius: 0%;
 }
 .padding {
@@ -40,10 +43,11 @@ padding-bottom: 2rem;
 .welcome {
     width: 75%;
     margin: 0 auto;
+    background-color: white;
     padding-top: 2rem;
 }
 .welcome hr {
-    border-top: 2px solid black;
+    border-top: 2px solid white;
     width: 95%;
     margin-top: 3rem;
     margin-bottom: 1rem;
@@ -52,11 +56,8 @@ padding-bottom: 2rem;
     font-size: 4.5rem;
     padding: 3rem;
 }
- .footer {
-     background-color:  rgb(75, 10, 59);
-     color: black;
-     padding-top: 2rem;
- }
+
+
 .fun {
     width: 100%;
     margin-bottom: 2rem;
@@ -70,7 +71,7 @@ padding-bottom: 2rem;
 }
 
 footer {
-    background-color: rgb(75, 10, 59);
+    background-color: #33cc99;
     color: #000000;
     padding-top: 2rem;
 }
@@ -80,19 +81,8 @@ hr.light {
     margin-top: .8rem;
     margin-bottom: 1rem;
 }
-footer {
-color:  rgb(75, 10, 59);
-}
-hr.light-100 {
-    border-top: 1px white;
-    width: 100%;
-    margin-top: .8rem;
-    margin-bottom: 1rem;
 
-}
-
-
-
+/*-----media tag*/
 
 @media (max-width: 992px){
  .social a { 
@@ -132,8 +122,11 @@ hr.light-100 {
     }
 
 }
-button {
-    padding: 10px;
+.button {
+    padding: 9px;
     font-weight: bold;
-    background-color: darkcyan;
+    background-color: #33cc99;
+}
+card{
+    border-color:  #33cc99;
 }
