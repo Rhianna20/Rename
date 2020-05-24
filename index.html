@@ -14,7 +14,7 @@
   <body>
     <!---NAV BAR-->
   <nav class='navbar navbar-expand-md navbar-light bg-light sticky-top narbar-default'>
-    <div class='container-fluid'>
+    <div class='container-fluid d-flex flex-row-reverse d-inlie-flex d-sm-flex'>
       <a class='navbar-brand' href='#'><img src=""></a>
       <button class="navbar-toggler" type="button" data-toggle='collapse' data-target='#navbarResponsive'>
         <span class='navbar-toggler-icon'></span>
@@ -80,14 +80,15 @@
 <div class="container-fluid padding">
 <div class="row padding">
   <div class="col-md-12 col-lg-6">
-    <h2 class="display-5">How did I get into Software Engineering?</h2>
-    <p>I have always had an interest in technology. I am fasinated with finding out how and why. ..</p>
+    <h2 class="display-5">Who is Rhianna Stuart?</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus quam nam exercitationem optio ducimus ea, illo pariatur deserunt molestiae,</p> 
+    <p> officia tempore, rerum debitis fugit et reiciendis labore laboriosam sint ipsa.</p>
     <br>
-    <a href="about.html" class="btn btn-danger">Find out more!</a>
+    <a href="about.html" class="btn btn-light">Find out more!</a>
   </div>
   <div class="col-md-6">
   <img src="shock.jpg" class="img=fluid">
-  <div class="col-12">
+  <div class="col-12 col-md-6">
     <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, natus odit voluptas fugit blanditiis sit minus voluptates nostrum vero in exercitationem</p>
     <p> qui reprehenderit doloribus perferendis, esse ab debitis excepturi repellendus?</p>
   </div>
@@ -111,7 +112,7 @@
    </div>
    </figure>
 <!--Button for fun fact-->
-<button class="fun" data-toggle="collaspe" data-target="fun" >Click to find out fun fact</button>
+<!--<button class="fun" onclick="myFunction()" data-toggle="collaspe" data-target="fun" >Click to find out fun fact</button>
 <div id="fun" class="collaspe">
   <div class="container-fluid padding">
     <div class="row text-center">
@@ -121,16 +122,24 @@
     </div>
   </div>
   <hr class="my-4">
+</div>-->
+
+<!--Reveal button-->
+<img id='#rev' src="bird.jpg" width="250x" height="250px">My name is..</img>
+
+<div id="button">
+  <button id="button" onclick="revealFact()">SHow and tell</button>
 </div>
 
+
 <!--CONNECT-->
-<div class="conainer-fluid padding">
-<div class="row text-center padding">
+<div class='conainer-fluid padding'>
+<div class='row text-center padding'>
   <div class='col-4'>
     <h3>Contact</h3>
   </div>
-<div class="col-12 social padding">
-  <a href="https://www.linkedin.com/in/rhiannastuart/"></div></div>
+<div class='col-12 social padding'>
+  <a href='https://www.linkedin.com/in/rhiannastuart/'>
   </div>
 </div>
 </div>
@@ -174,17 +183,9 @@
 
 
 
-  <!---java scritp-->
-  <script sr="java.js"></script>
-  <script>
-    function myButton() {
-      var x = document.getElementById(fun);
-      if (fun.style.display === fun) {
-        x.style.display = "block";
-      } else {
-        x.style.display = "none";
-      }
-    }
+  <!---java script-->
+ 
+    <script src="java.js">
     </script>
 </body>
 </html>
