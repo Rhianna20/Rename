@@ -3,10 +3,10 @@
     font-style: oblique;
     color: turquoise;
     font-size: 28px;
-    text-shadow: darkred;
 }
 html{
     background-color: yellow;
+    color: yellow;
 }
 
 navbar-nav li{
@@ -15,9 +15,7 @@ navbar-nav li{
 nav-link {
     font-size: 1.1em !important;
 }
-navbar{
-    color: yellow;
-}
+
 carousel-inner-img{
     width: 50%;
     height: 50%;
@@ -26,7 +24,7 @@ carousel-inner-img{
     font-size: 500%;
     text-transform: uppercase;
     color: rgb(118, 16, 150);
-    text-shadow: yellow 4px;
+    text-shadow: yellow 8rem;
         }
 carousel-caption-h3 {
     font-size: 200%;
@@ -59,6 +57,7 @@ welcome {
 .social a {
     font-size: 4.5rem;
     padding: 3rem;
+    background-color: yellow;
 }
 
 
@@ -66,7 +65,7 @@ footer {
     padding-top: 2rem; 
     background-color: yellow;
     border: solid white 2px;
-    text-shadow: darkorange;
+  
 }
 .hr.light {
     border-top: 1px;
