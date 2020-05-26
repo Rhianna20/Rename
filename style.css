@@ -1,10 +1,12 @@
 *{
     font-family: monospace;
     font-style: oblique;
-    font-size: 14px;
+    color: turquoise;
+    font-size: 28px;
+    text-shadow: darkred;
 }
 html{
-    background-color: plum;
+    background-color: yellow;
 }
 
 navbar-nav li{
@@ -13,9 +15,12 @@ navbar-nav li{
 nav-link {
     font-size: 1.1em !important;
 }
+navbar{
+    color: yellow;
+}
 carousel-inner-img{
-    width: 100%;
-    height: 100%;
+    width: 50%;
+    height: 50%;
         }
   carousel-caption-h1{
     font-size: 500%;
@@ -47,7 +52,7 @@ welcome {
     padding-top: 2rem; 
 }
 .welcome hr {
- 
+    background-color: yellow;
     margin-top: 3rem;
     margin-bottom: 1rem;
 }
@@ -59,7 +64,9 @@ welcome {
 
 footer { 
     padding-top: 2rem; 
-    background-color: darkgrey;
+    background-color: yellow;
+    border: solid white 2px;
+    text-shadow: darkorange;
 }
 .hr.light {
     border-top: 1px;
@@ -72,7 +79,7 @@ footer {
     font-weight: bold;
      border: none;
      color: white;
-        p
+    
 }
  .shock {
     width: 100%;
@@ -92,7 +99,7 @@ footer {
 .h3{
     color: purple;
 }
-.h1{
+h1{
     color: purple;
 }
 
@@ -115,12 +122,12 @@ footer {
 }
 @media(max-width: 768px){
 
-    .carousel-caption h1{
+    .carousel-caption-h1{
         font-size: 350%;
         text-transform: uppercase;
         
     }
-    .carousel-caption h3 {
+    .carousel-caption-h3 {
         font-size: 140%;
         font-weight: 400%;
         padding-bottom: .2rem;   
@@ -134,12 +141,12 @@ footer {
 }   
 }
 @media (max-width: 576px){
-    .carousel-caption h1{
+    .carousel-caption-h1{
         font-size: 250%;
         text-transform: uppercase;
         
     }
-    .carousel-caption h3 {
+    .carousel-caption-h3 {
         font-size: 110%;
          display: none;
     }
