@@ -1,6 +1,11 @@
 *{
     font-family: monospace;
-    color: lawngreen;
+    color: purple
+    font-style: oblique;
+}
+
+.bg-info{
+    background-color: rgb(170, 228, 238);
 }
 
 .navbar-nav li{
@@ -16,6 +21,8 @@
   .carousel-caption-h1{
     font-size: 500%;
     text-transform: uppercase;
+    color: rgb(118, 16, 150);
+    text-shadow: yellow 4px;
         }
 .carousel-caption-h3 {
     font-size: 200%;
@@ -64,9 +71,9 @@ padding-bottom: 2rem;
 }
 
 .footer {
-   background-color:paleturquoise;
+  
     padding-top: 2rem; 
-    border: #d34575;
+   
 }
 .hr.light {
     border-top: 1px;
@@ -77,8 +84,9 @@ padding-bottom: 2rem;
 .button {
     padding: 9px;
     font-weight: bold;
-    color: rebeccapurple;
-    
+     border: none;
+     color: white;
+        p
 }
  .shock {
     width: 100%;
@@ -87,7 +95,9 @@ padding-bottom: 2rem;
  }
 
 
-
+.p{
+    color: purple;
+}
 
 
 
