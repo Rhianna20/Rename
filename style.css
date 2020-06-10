@@ -1,102 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro');
+
+.top{
+    background-color: white;
+}
+head{
+    background-color: white;
+}
+body{
+    padding: 40px;
+    background-color: grey;
+    border-top: white;
+    border-top-width: 30px;
+}
+.container jumbo{
+    background-color: yellow;
+    color: white;
+    padding: 0%;
+}
+#navbar{
+    padding: 0%;
+    overflow: hidden;
+    background-color: gray;
+}
+#navbar a {
+    float: left;
+    display: left;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+.content {
+    padding: 16px;
+}
+
 *{
-    font-family: monospace;
-    font-style: oblique;
-
+    color: black;
+}
+.blocka {
+    background-color: red;
+}
+img{
+    border-style: groove ;
+}
+.p brief {
+    border-right: solid 3px rgba(white, grey, blue, alpha);
+    white-space: nowrap;
+    overflow: hidden;
+    font-family: 'source Code Pro', monospace;
+    font-weight: 28px;
+    color:black;
+    animation: animated-text 4s steps(29, end) 1s 1 normal both, animated-cursor 600ms steps(29, end) infinite;
+}
+.footer text-info{
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
+/*Animation*/
 
-navbar-nav li{
-    padding: right 20px; 
-    }
-nav-link {
-    font-size: 1.1em !important;
-}
-carousel-caption{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50);
-}
-
-carousel-inner img{
-    width: 100%;
-    height: 100%;
-        }
-  carousel-caption h1{
-    font-size: 500%;
-    text-transform: uppercase;
-    text-shadow: 1px 1px 15x #000000
-        }
-carousel-caption h3 {
-    font-size: 200%;
-    font-weight: 500%;   
-    text-shadow: 1px 1px 10px #000000;
-   }
-carousel-indicators {
-    position: absolute;
-    bottom: 0;
-    margin: 0;
-    left: 0;
-   }
- jumbotro{
-    padding: 1rem;
-    border-radius: 0%;
-   }
-padding {
-padding-bottom: 2rem;
-}
-welcome {
-    width: 75%;
-    margin: 0 auto;
-    
-    padding-top: 2rem; 
-}
-.welcome hr {
-    background-color: yellow;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-}
-.social a {
-    font-size: 4.5rem;
-    padding: 3rem;
-}
-.button{
-    background-color: yellow;
-    border: 1px solid aqua;
-}
-
-
-footer { 
-    padding-top: 2rem; 
-    background-color: slateblue; 
-    border: solid white 2px;
-  
-}
-.hr.light {
-    border-top: 1px;
-    width: 75%;
-    margin-top: .8rem;
-    margin-bottom: 1rem;
-}
-.button {
-    padding: 9px;
-    font-weight: bold;
-     border: none;
-     color: white;
-    
-}
- .shock {
-    width: 100%;
-    height: 100%;
-
+ @keyframes animated-text{
+    from{width: 0;}
+     to{width: 1000px;}
  }
 
-
-
-
-
-
-
-
+ /*   cursor animation */
+ @keyframes animated-cursor{
+     from{border-right-color: rgba(0, 255, 0, .75);}
+     to{border-right-color: transparent;}
+ }
 /*-----media tag*/
 
 @media (max-width: 992px){
@@ -137,3 +110,6 @@ footer {
     }
 
 }
+
+
+@import "../node_modules/bootstrap/scss/bootstrap";
