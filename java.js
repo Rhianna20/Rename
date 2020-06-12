@@ -1,13 +1,45 @@
-let headIntro = new Object();
-headIntro.title1 = "My";
-headIntro.title2 = "Creative";
-headIntro.title3 = "Cool"
-headIntro.title4 = "Webpage Resume"
+let sliderImages = document.querySelectorAll('.slide');
+let arrowLeft = document.querySelector('#arrow-left');
+let arrowRight = document.querySelector('#arrow-right');
+ let current = 0;
 
-
-function show(){
-    return headIntro.title1 + headIntro.title1 + headIntro.title2 + headIntro.title3 + headIntro.title4;
-
+//clear image//
+function reset(){
+    for(let i = 0; i < sliderImages.length; i++){
+      sliderImages[i].style.display = 'none';
+    }
 }
+//Init Sliderr //
+ function startSlider(){
+     reset();
+     sliderImages[0].style.display = 'block';
+ }
 
-
+//previous slide//
+ function slideLeft(){
+     reset();
+     sliderImages[current - 1].style.display = 'block';
+     current--;
+ }
+function slideRight(){
+    reset();
+    sliderImages[current + 1].style.display = 'block';
+    current++;
+}
+ 
+// left arrow click //
+ arrowLeft.addEventListener('click', function(){
+    if(current === 0){
+    current = sliderImages.length;
+  }
+    slideLeft()
+ });
+ //right arrow click//
+  arrowRight.addEventListener('click', function(){
+    if(current === sliderImages.length){
+         (current = -1)
+    }
+ slideRight();
+});
+    startSlider();
+ 

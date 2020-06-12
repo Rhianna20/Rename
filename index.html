@@ -1,64 +1,105 @@
 <!doctype html>
 <html lang="en">
-  <body>
-  <head class="headd">
+  <head>
+     <title>Hello, world!</title> 
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">   
+    
    <link href="style.css" rel="stylesheet">
     <!-- Required meta tags -->
-
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <!-- Bootstrap CSS -->
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <title>Hello, world!</title>
-   <!---NAV BAR-->
-   <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <a class="navbar-brand" href="#"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="#"></a>
-       <!--<a class="nav-item nav-link" href="#">Pricing</a>-->
-    </div>
-  </nav>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatiable" conetent="ie=edge">
   </head>
-  <!--JUMBTRON-->
-<div id="jumbo" class="jumbotron jumbotron-fluid">
-  <div class="container">
+  <body>
+      <!-- Bootstrap CSS -->
+       <!---NAV BAR-->
+       <div class="wrapper">
+      <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Who are you</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Experience & Educatiion</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+       </div>
+ <!--JUMBTRON-->
+ <div class="container-type">
+<div class="jumbotron-fluid">
+  <div class="container-fluid">
     <h1 class="display-4">Creative Resume</h1>
     <p class="lead">short and snappy.</p>
   </div>
 </div>
+  </div>
 
-
-
-
-
-
-
-
-  <div id="container-fluid" class="blocka">
+<!--Background Image-->
+<div class="wrap">
+  <div id="arrow-left" class="arrow"></div>
+  <div id="slide">
+   <div class="slide slide1">
+     <div class="slide-content">
+       <span>Img1</span>
+     </div>
+   </div>
+   <div id="slide">
+    <div class="slide slide2">
+      <div class="slide-content">
+        <span>Img2</span>
+      </div>
+    </div>
+    <div id="slide">
+      <div class="slide slide3">
+        <div id="arrow-right" class="arrow"></div>
+         <div class="slide-content">
+          <span>Img3</span>
+        </div>
+      </div>
+  <div id="arrow-right" class="arrow" ></div>
+    </div>
+<!--First section-->
+  <div id="container" class="blocka">
   <h2 id="lilextra">Who is Rhianna Stuart</h2>
   <p id="brief">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Excepturi, non qui. Ad fuga quaerat repudiandae commodi possimus autem eum, magni, necessitatibus repellendus, in velit ratione magnam dignissimos quos odio maiores.</p>
-<img src="gotcha.jpg" id="imgr">
-  </div>
-    
+  </div></div>
+  <img src="gotcha.jpg" id="imgage1" class="image01">    
 
   <!--Experience and skills-->
 
-    
+    <ul>
+      <li>Presistence</li>
+      <li>Creative</li>
+      <li>Can do attitude</li>
+      <li>Self Motivated</li>
+    </ul>
 
-
+<!--Education-->
+I went to Bishop Challoner Catholic Girls School where I studied <strong>English, Maths, Science, Art, Media</strong> and<strong>RE</strong>.
 
   
 
-<!--CONNECT-->
-
+<!--SKILLS-->
+<div class="container">
+  <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4">
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+    <div class="col">Column</div>
+  </div>
+</div>
 
 
 <!--The FOOT-->
+
 <footer>
   <div class="container-fluid padding">
     <div class="row text-center">
@@ -67,7 +108,7 @@
         <hr class="light">
     
         <p class="text-info"><strong>RhiannaStuart@hotmail.co.uk</strong></p>
-       <p class="text-info"><strong> City, London</p>
+       <p class="text-info"><strong> City, London</strong></p>
       </div>
     </div>
     <div class="col-12">
@@ -75,28 +116,25 @@
       <h7 class="text-info">&copy;RhiannaStuart.2020</h7>
     </div>
     </div>
-  </div>
-</footer>
-  
+  </footer>
+
+
 <!---Licsence-->
 
 
 <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
-  
+   <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
+  <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
+    <script src="java.js"></script>
+    <!---java script-->
+    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
 
-
-
-
-
-  <!---java script-->
-  <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
- 
-    <script src="java.js">
-    </script>
 </body>
 </html>
