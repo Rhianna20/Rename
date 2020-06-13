@@ -29,8 +29,7 @@ body, #slides, .wrap{
 .surface {
     height: 140px;
     width: 500%;
-    background: url()
-    display: block;
+ 
     position: absolute;
     bottom: 0;
 
