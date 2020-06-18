@@ -10,12 +10,13 @@ body, #slides, .wrap{
     font-family: 'Gorditas', cursive;
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
-
+/* 2section image column*/
 .image01{
     border-radius: 50%;
     width: 300px;
     height: 300px;
 }
+/* Navigation */
 .navbar{
 padding: 8rem;
 position: fixed;
@@ -125,6 +126,18 @@ footer p h7{
 }
 p .bottom{
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+/* 2 part column */
+.imagescol {
+    height: 200px;
+    width: 50%;
+    background-color: transparent;
+    margin: 1px;
+    padding: 5px;
+  }
+.container-fluid hobbies{
+    align-items: center;
+    align-content: center;
 }
 /*Animation*/
 
