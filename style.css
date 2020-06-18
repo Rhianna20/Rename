@@ -8,6 +8,7 @@ body, #slides, .wrap{
     height: 100vh;
     overflow-x: hidden;
     font-family: 'Gorditas', cursive;
+    color: black;
     background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
 }
 /* 2section image column*/
@@ -39,11 +40,10 @@ color: aqua;
 text-shadow: white;
 font-weight: bolder;
 }
-
+/* heading */
 .container-type{
     font-weight: bolder;
-    font-style: oblique;
-    border-style: solid white;
+       border-style: solid white;
     background-color: rgb(222, 236, 232) canvas;
     align-items: center;
     align-content: center;
@@ -51,9 +51,23 @@ font-weight: bolder;
     left: 50%;
     right: 50%;
     color:black;
-    outline: white;
-    
+    outline: white; 
 }
+.container-type h1{
+    -webkit-animation: container-type h1 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;  
+}
+
+@keyframes h1{
+    from{
+        text-shadow: 0 0 10px #ffffff, 0 0 20px #ffffff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 70px #e60073;
+    }
+    to {
+        text-shadow: 0 0 20px #ffffff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 80px #ff4da6;
+    }
+}
+/*head text*/
 .container-type p {
     color: yellow;
     font-weight: lighter;
@@ -64,7 +78,7 @@ font-weight: bolder;
 .wrapper ul li:hover{
 background:rosybrown;
 }
- 
+ /*  carousel */
 .carousel-caption{
     position: absolute;
     top: 50%;
@@ -92,7 +106,7 @@ background:rosybrown;
    }
 
 .carousel-indicators {
-    position: absolute;
+    position: bottom;
     bottom: 0;
     margin: 0;
     left: 0;
@@ -108,6 +122,7 @@ background:rosybrown;
     bottom: 50px;
     position: left;
 }
+/* intro text */
 footer p h7{
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
@@ -128,17 +143,14 @@ p .bottom{
     background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
 }
 /* 2 part column */
-.imagescol {
-    height: 200px;
-    width: 50%;
-    background-color: transparent;
-    margin: 1px;
-    padding: 5px;
-  }
-.container-fluid hobbies{
-    align-items: center;
-    align-content: center;
+.gap100{
+    padding: 70px 0px;
 }
+.image-fluid{
+    width: 100%;
+    height: 50%;
+}
+
 /*Animation*/
 
  @keyframes animated-text{
@@ -151,6 +163,7 @@ p .bottom{
      from{border-right-color: rgba(0, 255, 0, .75);}
      to{border-right-color: transparent;}
  }
+
 /*-----media tag*/
 
 @media (max-width: 992px){
